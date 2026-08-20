@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Python",
+    "content": "Python é uma linguagem de programação de alto nível, interpretada e de tipagem dinâmica, criada por Guido van Rossum em 1991. É conhecida pela sintaxe simples e legível, o que a torna popular para automação, ciência de dados, desenvolvimento web e scripting. Possui um vasto ecossistema de bibliotecas, como NumPy, Pandas e Django."
+  },
+  {
+    "title": "Django",
+    "content": "Django é um framework web de alto nível para Python que segue o padrão MTV (Model-Template-View) e incentiva o desenvolvimento rápido com código limpo e pragmático. Vem com um ORM embutido, painel administrativo automático, sistema de autenticação e proteção contra vulnerabilidades comuns como CSRF e SQL injection."
+  },
+  {
+    "title": "FastAPI",
+    "content": "FastAPI é um framework web moderno e de alta performance para construir APIs com Python 3.7+, baseado em type hints padrão do Python. Utiliza Pydantic para validação de dados e Starlette para a camada assíncrona, gerando automaticamente documentação interativa (Swagger UI e ReDoc) a partir do código."
+  },
+  {
+    "title": "PostgreSQL",
+    "content": "PostgreSQL é um sistema de gerenciamento de banco de dados relacional (SGBD) open source, conhecido pela robustez, extensibilidade e conformidade com o padrão SQL. Suporta transações ACID, tipos de dados avançados (JSON, arrays), índices customizados e é amplamente usado em aplicações que exigem integridade e consistência de dados."
+  },
+  {
+    "title": "Docker",
+    "content": "Docker é uma plataforma de containerização que permite empacotar uma aplicação e suas dependências em uma unidade isolada chamada container, garantindo que ela rode da mesma forma em qualquer ambiente. Utiliza um arquivo Dockerfile para definir a imagem e o Docker Compose para orquestrar múltiplos containers."
+  },
+  {
+    "title": "LangChain",
+    "content": "LangChain é um framework para desenvolvimento de aplicações que utilizam modelos de linguagem (LLMs), fornecendo abstrações para prompts, cadeias de chamadas, integração com ferramentas externas (tool calling), memória de conversação e conexão com diferentes provedores de LLM, como OpenAI, Anthropic e Google Gemini."
+  },
+  {
+    "title": "LangGraph",
+    "content": "LangGraph é uma biblioteca construída sobre o LangChain para orquestrar fluxos de agentes de IA como grafos de estados (state machines). Permite modelar ciclos, decisões condicionais e múltiplos passos de raciocínio de forma explícita, sendo especialmente útil para agentes que decidem dinamicamente quando usar ferramentas."
+  }
+]
