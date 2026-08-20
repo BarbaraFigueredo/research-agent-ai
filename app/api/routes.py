@@ -19,6 +19,6 @@ def chat(request: ChatRequest) -> ChatResponse:
         }
     )
     return ChatResponse(
-        answer=result["messages"][-1].content,
+        answer=result["messages"][-1].text,
         used_tool=result["used_tool"],
     )
