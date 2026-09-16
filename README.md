@@ -42,9 +42,7 @@ Na prática, isso é um grafo de estados do LangGraph com só dois nós (`agent`
 - **Google Gemini** — o LLM usado (via `langchain-google-genai`)
 - **Docker** — pra rodar tudo sem precisar configurar ambiente na mão
 
-## O que esse projeto demonstra
-
-Foi construído pra ser mostrado numa entrevista, então cada peça existe por um motivo:
+## O que esse projeto demonstra:
 
 - **Integração com LLM** de verdade, via LangChain, sem hardcoding de prompt/resposta.
 - **Engenharia de prompt** separada do código de negócio (`app/prompts/`), com instruções explícitas sobre quando usar a ferramenta e como diferenciar conhecimento próprio de informação buscada.
